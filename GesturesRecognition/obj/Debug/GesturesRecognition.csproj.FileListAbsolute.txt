@@ -1,0 +1,39 @@
+C:\Users\Bisina Keshara\Downloads\Compressed\Gestures_Recognion_V1.2 Source\Gestures Recognion - src\GesturesRecognition\bin\Debug\GesturesRecognition.exe
+C:\Users\Bisina Keshara\Downloads\Compressed\Gestures_Recognion_V1.2 Source\Gestures Recognion - src\GesturesRecognition\bin\Debug\GesturesRecognition.pdb
+C:\Users\Bisina Keshara\Downloads\Compressed\Gestures_Recognion_V1.2 Source\Gestures Recognion - src\GesturesRecognition\bin\Debug\AForge.dll
+C:\Users\Bisina Keshara\Downloads\Compressed\Gestures_Recognion_V1.2 Source\Gestures Recognion - src\GesturesRecognition\bin\Debug\AForge.GestureRecognition.dll
+C:\Users\Bisina Keshara\Downloads\Compressed\Gestures_Recognion_V1.2 Source\Gestures Recognion - src\GesturesRecognition\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\Bisina Keshara\Downloads\Compressed\Gestures_Recognion_V1.2 Source\Gestures Recognion - src\GesturesRecognition\bin\Debug\AForge.Video.dll
+C:\Users\Bisina Keshara\Downloads\Compressed\Gestures_Recognion_V1.2 Source\Gestures Recognion - src\GesturesRecognition\bin\Debug\AForge.Imaging.dll
+C:\Users\Bisina Keshara\Downloads\Compressed\Gestures_Recognion_V1.2 Source\Gestures Recognion - src\GesturesRecognition\bin\Debug\AForge.Math.dll
+C:\Users\Bisina Keshara\Downloads\Compressed\Gestures_Recognion_V1.2 Source\Gestures Recognion - src\GesturesRecognition\bin\Debug\AForge.GestureRecognition.pdb
+C:\Users\Bisina Keshara\Downloads\Compressed\Gestures_Recognion_V1.2 Source\Gestures Recognion - src\GesturesRecognition\bin\Debug\AForge.GestureRecognition.xml
+C:\Users\Bisina Keshara\Downloads\Compressed\Gestures_Recognion_V1.2 Source\Gestures Recognion - src\GesturesRecognition\bin\Debug\Interop.SpeechLib.dll
+C:\Users\Bisina Keshara\Downloads\Compressed\Gestures_Recognion_V1.2 Source\Gestures Recognion - src\GesturesRecognition\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Bisina Keshara\Downloads\Compressed\Gestures_Recognion_V1.2 Source\Gestures Recognion - src\GesturesRecognition\obj\Debug\Interop.SpeechLib.dll
+C:\Users\Bisina Keshara\Downloads\Compressed\Gestures_Recognion_V1.2 Source\Gestures Recognion - src\GesturesRecognition\obj\Debug\GesturesRecognition.csproj.ResolveComReference.cache
+C:\Users\Bisina Keshara\Downloads\Compressed\Gestures_Recognion_V1.2 Source\Gestures Recognion - src\GesturesRecognition\obj\Debug\GesturesRecognition.AboutForm.resources
+C:\Users\Bisina Keshara\Downloads\Compressed\Gestures_Recognion_V1.2 Source\Gestures Recognion - src\GesturesRecognition\obj\Debug\GesturesRecognition.CameraWindow.resources
+C:\Users\Bisina Keshara\Downloads\Compressed\Gestures_Recognion_V1.2 Source\Gestures Recognion - src\GesturesRecognition\obj\Debug\GesturesRecognition.MainForm.resources
+C:\Users\Bisina Keshara\Downloads\Compressed\Gestures_Recognion_V1.2 Source\Gestures Recognion - src\GesturesRecognition\obj\Debug\GesturesRecognition.Properties.Resources.resources
+C:\Users\Bisina Keshara\Downloads\Compressed\Gestures_Recognion_V1.2 Source\Gestures Recognion - src\GesturesRecognition\obj\Debug\GesturesRecognition.VideoCaptureDeviceForm.resources
+C:\Users\Bisina Keshara\Downloads\Compressed\Gestures_Recognion_V1.2 Source\Gestures Recognion - src\GesturesRecognition\obj\Debug\ResGen.read.1.tlog
+C:\Users\Bisina Keshara\Downloads\Compressed\Gestures_Recognion_V1.2 Source\Gestures Recognion - src\GesturesRecognition\obj\Debug\ResGen.write.1.tlog
+C:\Users\Bisina Keshara\Downloads\Compressed\Gestures_Recognion_V1.2 Source\Gestures Recognion - src\GesturesRecognition\obj\Debug\GesturesRecognition.exe
+C:\Users\Bisina Keshara\Downloads\Compressed\Gestures_Recognion_V1.2 Source\Gestures Recognion - src\GesturesRecognition\obj\Debug\GesturesRecognition.pdb
+E:\Dropbox\Project\Gestures_Recognion_V1.2 Source\Gestures Recognion - src\GesturesRecognition\bin\Debug\GesturesRecognition.exe.config
+E:\Dropbox\Project\Gestures_Recognion_V1.2 Source\Gestures Recognion - src\GesturesRecognition\obj\Debug\Interop.SpeechLib.dll
+E:\Dropbox\Project\Gestures_Recognion_V1.2 Source\Gestures Recognion - src\GesturesRecognition\obj\Debug\GesturesRecognition.csproj.ResolveComReference.cache
+E:\Dropbox\Project\Gestures_Recognion_V1.2 Source\Gestures Recognion - src\GesturesRecognition\obj\Debug\GesturesRecognition.exe
+E:\Dropbox\Project\Gestures_Recognion_V1.2 Source\Gestures Recognion - src\GesturesRecognition\obj\Debug\GesturesRecognition.pdb
+E:\Dropbox\Project\Gestures_Recognion_V1.2 Source\Gestures Recognion - src\GesturesRecognition\obj\Debug\ResolveAssemblyReference.cache
+E:\Dropbox\Project\Gestures_Recognion_V1.2 Source\Gestures Recognion - src\GesturesRecognition\obj\Debug\GesturesRecognition.AboutForm.resources
+E:\Dropbox\Project\Gestures_Recognion_V1.2 Source\Gestures Recognion - src\GesturesRecognition\obj\Debug\GesturesRecognition.CameraWindow.resources
+E:\Dropbox\Project\Gestures_Recognion_V1.2 Source\Gestures Recognion - src\GesturesRecognition\obj\Debug\GesturesRecognition.MainForm.resources
+E:\Dropbox\Project\Gestures_Recognion_V1.2 Source\Gestures Recognion - src\GesturesRecognition\obj\Debug\GesturesRecognition.Properties.Resources.resources
+E:\Dropbox\Project\Gestures_Recognion_V1.2 Source\Gestures Recognion - src\GesturesRecognition\obj\Debug\GesturesRecognition.VideoCaptureDeviceForm.resources
+E:\Dropbox\Project\Gestures_Recognion_V1.2 Source\Gestures Recognion - src\GesturesRecognition\obj\Debug\GenerateResource.read.1.tlog
+E:\Dropbox\Project\Gestures_Recognion_V1.2 Source\Gestures Recognion - src\GesturesRecognition\obj\Debug\ResGen.read.1.tlog
+E:\Dropbox\Project\Gestures_Recognion_V1.2 Source\Gestures Recognion - src\GesturesRecognition\obj\Debug\GenerateResource.write.1.tlog
+E:\Dropbox\Project\Gestures_Recognion_V1.2 Source\Gestures Recognion - src\GesturesRecognition\obj\Debug\ResGen.write.1.tlog
+E:\Dropbox\Project\Gestures_Recognion_V1.2 Source\Gestures Recognion - src\GesturesRecognition\obj\Debug\Interop.LCC11.dll
