@@ -1,0 +1,16 @@
+C:\Users\Bisina Keshara\Downloads\Compressed\Gestures_Recognion_V1.2 Source\Gestures Recognion - src\AForge.GestureRecognition\bin\Debug\AForge.GestureRecognition.dll
+C:\Users\Bisina Keshara\Downloads\Compressed\Gestures_Recognion_V1.2 Source\Gestures Recognion - src\AForge.GestureRecognition\bin\Debug\AForge.GestureRecognition.pdb
+C:\Users\Bisina Keshara\Downloads\Compressed\Gestures_Recognion_V1.2 Source\Gestures Recognion - src\AForge.GestureRecognition\bin\Debug\AForge.dll
+C:\Users\Bisina Keshara\Downloads\Compressed\Gestures_Recognion_V1.2 Source\Gestures Recognion - src\AForge.GestureRecognition\bin\Debug\AForge.Imaging.dll
+C:\Users\Bisina Keshara\Downloads\Compressed\Gestures_Recognion_V1.2 Source\Gestures Recognion - src\AForge.GestureRecognition\bin\Debug\AForge.Math.dll
+C:\Users\Bisina Keshara\Downloads\Compressed\Gestures_Recognion_V1.2 Source\Gestures Recognion - src\AForge.GestureRecognition\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Bisina Keshara\Downloads\Compressed\Gestures_Recognion_V1.2 Source\Gestures Recognion - src\AForge.GestureRecognition\obj\Debug\AForge.GestureRecognition.dll
+C:\Users\Bisina Keshara\Downloads\Compressed\Gestures_Recognion_V1.2 Source\Gestures Recognion - src\AForge.GestureRecognition\obj\Debug\AForge.GestureRecognition.pdb
+E:\Dropbox\Project\Gestures_Recognion_V1.2 Source\Gestures Recognion - src\AForge.GestureRecognition\bin\Debug\AForge.GestureRecognition.dll
+E:\Dropbox\Project\Gestures_Recognion_V1.2 Source\Gestures Recognion - src\AForge.GestureRecognition\bin\Debug\AForge.GestureRecognition.pdb
+E:\Dropbox\Project\Gestures_Recognion_V1.2 Source\Gestures Recognion - src\AForge.GestureRecognition\bin\Debug\AForge.dll
+E:\Dropbox\Project\Gestures_Recognion_V1.2 Source\Gestures Recognion - src\AForge.GestureRecognition\bin\Debug\AForge.Imaging.dll
+E:\Dropbox\Project\Gestures_Recognion_V1.2 Source\Gestures Recognion - src\AForge.GestureRecognition\bin\Debug\AForge.Math.dll
+E:\Dropbox\Project\Gestures_Recognion_V1.2 Source\Gestures Recognion - src\AForge.GestureRecognition\obj\Debug\ResolveAssemblyReference.cache
+E:\Dropbox\Project\Gestures_Recognion_V1.2 Source\Gestures Recognion - src\AForge.GestureRecognition\obj\Debug\AForge.GestureRecognition.dll
+E:\Dropbox\Project\Gestures_Recognion_V1.2 Source\Gestures Recognion - src\AForge.GestureRecognition\obj\Debug\AForge.GestureRecognition.pdb

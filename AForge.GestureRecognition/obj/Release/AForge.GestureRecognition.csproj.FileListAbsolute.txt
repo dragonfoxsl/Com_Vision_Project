@@ -1,0 +1,9 @@
+C:\Users\Bisina Keshara\Downloads\Compressed\Gestures_Recognion_V1.2 Source\Gestures Recognion - src\AForge.GestureRecognition\bin\Release\AForge.GestureRecognition.XML
+C:\Users\Bisina Keshara\Downloads\Compressed\Gestures_Recognion_V1.2 Source\Gestures Recognion - src\AForge.GestureRecognition\bin\Release\AForge.GestureRecognition.dll
+C:\Users\Bisina Keshara\Downloads\Compressed\Gestures_Recognion_V1.2 Source\Gestures Recognion - src\AForge.GestureRecognition\bin\Release\AForge.GestureRecognition.pdb
+C:\Users\Bisina Keshara\Downloads\Compressed\Gestures_Recognion_V1.2 Source\Gestures Recognion - src\AForge.GestureRecognition\bin\Release\AForge.dll
+C:\Users\Bisina Keshara\Downloads\Compressed\Gestures_Recognion_V1.2 Source\Gestures Recognion - src\AForge.GestureRecognition\bin\Release\AForge.Imaging.dll
+C:\Users\Bisina Keshara\Downloads\Compressed\Gestures_Recognion_V1.2 Source\Gestures Recognion - src\AForge.GestureRecognition\bin\Release\AForge.Math.dll
+C:\Users\Bisina Keshara\Downloads\Compressed\Gestures_Recognion_V1.2 Source\Gestures Recognion - src\AForge.GestureRecognition\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Bisina Keshara\Downloads\Compressed\Gestures_Recognion_V1.2 Source\Gestures Recognion - src\AForge.GestureRecognition\obj\Release\AForge.GestureRecognition.dll
+C:\Users\Bisina Keshara\Downloads\Compressed\Gestures_Recognion_V1.2 Source\Gestures Recognion - src\AForge.GestureRecognition\obj\Release\AForge.GestureRecognition.pdb

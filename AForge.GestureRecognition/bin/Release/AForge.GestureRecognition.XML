@@ -1,0 +1,353 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AForge.GestureRecognition</name>
+    </assembly>
+    <members>
+        <member name="T:AForge.GestureRecognition.HandPosition">
+            <summary>
+            Set of recognizable hand positions.
+            </summary>
+            
+        </member>
+        <member name="F:AForge.GestureRecognition.HandPosition.NotRaised">
+            <summary>
+            Hand is not raized.
+            </summary>
+        </member>
+        <member name="F:AForge.GestureRecognition.HandPosition.RaisedStraigh">
+            <summary>
+            Hand is raised straight.
+            </summary>
+        </member>
+        <member name="F:AForge.GestureRecognition.HandPosition.RaisedDiagonallyUp">
+            <summary>
+            Hand is raised diagonally up.
+            </summary>
+        </member>
+        <member name="F:AForge.GestureRecognition.HandPosition.RaisedDiagonallyDown">
+            <summary>
+            Hand is raised diagonally down.
+            </summary>
+        </member>
+        <member name="T:AForge.GestureRecognition.Gesture">
+            <summary>
+            Two hands gesture.
+            </summary>
+            
+        </member>
+        <member name="F:AForge.GestureRecognition.Gesture.LeftHand">
+            <summary>
+            Position of left hand.
+            </summary>
+        </member>
+        <member name="F:AForge.GestureRecognition.Gesture.RightHand">
+            <summary>
+            Position of right hand.
+            </summary>
+        </member>
+        <member name="M:AForge.GestureRecognition.Gesture.#ctor(AForge.GestureRecognition.HandPosition,AForge.GestureRecognition.HandPosition)">
+            <summary>
+            Initializes a new instance of the <see cref="T:AForge.GestureRecognition.Gesture"/> structure.
+            </summary>
+            
+            <param name="leftHand">Left hand's position.</param>
+            <param name="rightHand">Right hand's position.</param>
+            
+        </member>
+        <member name="T:AForge.GestureRecognition.GestureDetectionEventHandler">
+            <summary>
+            Delegate to notify about detected and recognized gesture.
+            </summary>
+            
+            <param name="sender">Sender object.</param>
+            <param name="gesture">Recognized gesture.</param>
+            
+        </member>
+        <member name="T:AForge.GestureRecognition.GesturesRecognizerFromVideo">
+            <summary>
+            Gesture recognizer from video feed.
+            </summary>
+            
+            <remarks><para>The class processes video feed recognizing gestures of human's bodies.
+            The processing algorithm first of all tries to locate big object, which is presumably
+            human body. When the object is not moving for a while, the algorithms tries to recognize
+            its gesture. In the case of successfull recognition, the class fires an event.</para>
+            
+            <para>Sample usage:</para>
+            <code>
+            // create motion detector with noise suppresion
+            GesturesRecognizerFromVideo recognizer = new GesturesRecognizerFromVideo( );
+            // register delagate for the event
+            recognizer.GestureDetected += new GestureDetectionEventHandler( recognizer_GestureDetected );
+            // feed images in the loop
+            while ( ... )
+            {
+                recognizer.ProcessFrame( image );
+            }
+            // ...
+            
+            // On gesture recognized (somewhere in the code)
+            private void recognizer_GestureDetected( object sender, Gesture gesture )
+            {
+                // ... process recognized gesture
+            }
+            
+            </code>
+            </remarks>
+            
+        </member>
+        <member name="M:AForge.GestureRecognition.GesturesRecognizerFromVideo.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:AForge.GestureRecognition.GesturesRecognizerFromVideo"/> class.
+            </summary>
+            
+        </member>
+        <member name="M:AForge.GestureRecognition.GesturesRecognizerFromVideo.Reset">
+            <summary>
+            Reset gesture recognition engine to initial state.
+            </summary>
+            
+            <remarks>The method resets the engine to initial state, resetting all internal variable
+            to the same state like after class instantiation.</remarks>
+            
+        </member>
+        <member name="M:AForge.GestureRecognition.GesturesRecognizerFromVideo.ProcessFrame(System.Drawing.Bitmap@)">
+            <summary>
+            Process new frame.
+            </summary>
+            
+            <remarks>Process new frame of video source and try to recognize gesture.</remarks>
+            
+        </member>
+        <member name="P:AForge.GestureRecognition.GesturesRecognizerFromVideo.GestureRecognizer">
+             <summary>
+             Gestture recognizer from still images.
+             </summary>
+            
+             <remarks>The property allows to access <see cref="P:AForge.GestureRecognition.GesturesRecognizerFromVideo.GestureRecognizer"/> instance and alter its
+             properties.</remarks>
+            
+        </member>
+        <member name="P:AForge.GestureRecognition.GesturesRecognizerFromVideo.MinBodyWidth">
+            <summary>
+            Minimum acceptable body width.
+            </summary>
+            
+            <remarks><para>The property sets minimum object's width, which is treated as human body. All objects
+            with width less then this value are not treated as human body and are not passed to gesture
+            recognition algorithm.</para>
+            <para>Default value is set to 50.</para>
+            </remarks>
+            
+        </member>
+        <member name="P:AForge.GestureRecognition.GesturesRecognizerFromVideo.MinBodyHeight">
+            <summary>
+            Minimum acceptable body height.
+            </summary>
+            
+            <remarks><para>The property sets minimum object's height, which is treated as human body. All objects
+            with height less then this value are not treated as human body and are not passed to gesture
+            recognition algorithm.</para>
+            <para>Default value is set to 50.</para>
+            </remarks>
+            
+        </member>
+        <member name="P:AForge.GestureRecognition.GesturesRecognizerFromVideo.MotionLimit">
+            <summary>
+            Motion limit, which is used to avoid gesture detection of moving object.
+            </summary>
+            
+            <remarks><para>Once a big moving object is detect (presumably human body), gesture recognition algorithm
+            may try to recognize its gesture. To avoid gesture recognition of moving object, the video processing
+            module waits certain amount of frames without motion (<see cref="P:AForge.GestureRecognition.GesturesRecognizerFromVideo.MinFramesWithoutMotion"/>). When object
+            is not moving for a while, gesture recognition algorithm tries to recognize the gesture.</para>
+            <para>The property sets limit of changed pixels to detect motion. If number of changed pixels between
+            two continuous frames is greater than this value, then object is supposed to be moving. Otherwise object
+            is not moving and gesture recognition may occur.</para>
+            <para>Minimal possible value is 0. Maximal possible value is 1. Default value is set 0.005 (0.5%).</para>
+            </remarks>
+            
+        </member>
+        <member name="P:AForge.GestureRecognition.GesturesRecognizerFromVideo.MinFramesWithoutMotion">
+            <summary>
+            Minimual amount of frames without motion before passing current frame to gesture recognition.
+            </summary>
+            
+            <remarks><para>The property sets the amount of frames, which should pass without motion detection,
+            before gesture recognition algorithm starts to recognize gesture on a current frame.</para>
+            <para>Default value is set to 3.</para>
+            </remarks>
+            
+        </member>
+        <member name="P:AForge.GestureRecognition.GesturesRecognizerFromVideo.MinFramesWithoutGestureChange">
+            <summary>
+            Minimal amount of frames without gesture changes before signaling about recognized gesture.
+            </summary>
+            
+            <remarks><para>The property is required to avoid false gesture recognitions. If the same gesture
+            is recognized during specified amount of continues frames, then it is supposed to be recognized
+            correctly.</para>
+            <para>Default value is set to 1.</para>
+            <para><note>If the property is set to 0, then it means that first recognized gesture is treated as
+            valid - further frames are not checked.</note></para>
+            </remarks>
+            
+        </member>
+        <member name="E:AForge.GestureRecognition.GesturesRecognizerFromVideo.GestureDetected">
+            <summary>
+            Event to notify about detected and recognized gesture.
+            </summary>
+        </member>
+        <member name="T:AForge.GestureRecognition.GestureRecognizer">
+            <summary>
+            Gesture recognizer from still image.
+            </summary>
+            
+            <remarks>
+            <para>The class processes specified image of human's body, trying to recognize hands'
+            gesture.</para>
+            
+            <para><note>The class processes only binary (8 bpp indexed) images, where white color
+            is represented by 255 value (black is 0).</note></para>
+            
+            <para>Sample usage:</para>
+            <code>
+            // create gesture recognizer instance
+            GestureRecognizer recognizer = new GestureRecognizer( );
+            // recognize gesture
+            Gesture gesture = recognizer.Recognize( image );
+            // process gesture
+            if (
+                ( gesture.LeftHand  != HandPosition.NotRaised ) ||
+                ( gesture.RightHand != HandPosition.NotRaised )
+                )
+            {
+                // ...
+            }
+            </code>
+            </remarks>
+            
+        </member>
+        <member name="M:AForge.GestureRecognition.GestureRecognizer.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:AForge.GestureRecognition.GestureRecognizer"/> class.
+            </summary>
+        </member>
+        <member name="M:AForge.GestureRecognition.GestureRecognizer.Recognize(System.Drawing.Bitmap,System.Boolean)">
+            <summary>
+            Recognize hands gesture.
+            </summary>
+            
+            <param name="image">Source image to recognize hands gesture on.</param>
+            <param name="bodyImageOnly">Specifies if the passed image data contain only human's body or not.</param>
+            
+            <returns>Returns gesture structure, which specifies position of both hands.</returns>
+            
+            <remarks><para>The <b>bodyImageOnly</b>> parameter specifies if human's body occupies the
+            passes image from top to down and from left to rigth. If the value is set to <b>false</b>,
+            then humans' body may occupy only part of the image, what will require image shrinking.</para></remarks>
+            
+        </member>
+        <member name="M:AForge.GestureRecognition.GestureRecognizer.Recognize(System.Drawing.Imaging.BitmapData,System.Boolean)">
+            <summary>
+            Recognize hands gesture.
+            </summary>
+            
+            <param name="imageData">Source image data to recognize hands gesture on.</param>
+            <param name="bodyImageOnly">Specifies if the passed image data contain only human's body or not.</param>
+            
+            <returns>Returns gesture structure, which specifies position of both hands.</returns>
+            
+            <remarks><para>The <b>bodyImageOnly</b>> parameter specifies if human's body occupies the
+            passes image from top to down and from left to rigth. If the value is set to <b>false</b>,
+            then humans' body may occupy only part of the image, what will require image shrinking.</para></remarks>
+            
+        </member>
+        <member name="M:AForge.GestureRecognition.GestureRecognizer.GetHandPosition(System.Drawing.Bitmap)">
+            <summary>
+            Estimate hand position on the specified image.
+            </summary>
+            
+            <param name="handImage">Hand image to processþ</param>
+            
+            <returns>Returns detected hand's position.</returns>
+            
+        </member>
+        <member name="M:AForge.GestureRecognition.GestureRecognizer.FilterLowValues(AForge.Math.Histogram)">
+            <summary>
+            Filter histogram's low values.
+            </summary>
+            
+            <param name="histogram">Histogram to filter.</param>
+            
+        </member>
+        <member name="M:AForge.GestureRecognition.GestureRecognizer.FilterNoisyPeaks(AForge.Math.Histogram)">
+            <summary>
+            Remove peaks from the histogram, which don't contain maximum value.
+            </summary>
+            
+            <param name="histogram">Histogram to process.</param>
+            
+        </member>
+        <member name="P:AForge.GestureRecognition.GestureRecognizer.TorsoCoefficient">
+            <summary>
+            Torso coefficient.
+            </summary>
+            
+            <remarks>
+            <para>The coefficient is used to find hands and torso on the initial image.
+            Horizontal image histogram is scanned and all areas, where proportion
+            of object's height to image height is greater then the this coefficient, are
+            treated as torso are.</para>
+            <para>Minimal possible value is 0. Maximal possible value is 1. Default value is
+            set to 0.3.</para>
+            </remarks>
+            
+        </member>
+        <member name="P:AForge.GestureRecognition.GestureRecognizer.HandsMinProportion">
+            <summary>
+            Minimal raised hands proportion.
+            </summary>
+            
+            <remarks>
+            <para>The value sets minimal proportion of hand to torso width. If hand
+            on the processing image has proportion, which is less then this value, then
+            this hand is treated as not raised.</para>
+            
+            <para>Minimal possible value is 0. Default value is set to 0.3.</para>
+            </remarks>
+            
+        </member>
+        <member name="P:AForge.GestureRecognition.GestureRecognizer.MinStraightHandProportion">
+            <summary>
+            Minimal straight hand proportion.
+            </summary>
+            
+            <remarks>
+            <para>The value sets minimal proportion of straight hand's width to its height.
+            If hand on a processing image has proportion greater then this value, then the
+            hand is treated as straight. Otherwise it is treated as diagonal.</para>
+            
+            <para>Minimal possible value is 0. Default value is set to 1.3.</para>
+            </remarks>
+            
+        </member>
+        <member name="P:AForge.GestureRecognition.GestureRecognizer.MaxRaisedUpHandProportion">
+            <summary>
+            Maximal raised up hand proportion.
+            </summary>
+            
+            <remarks>
+            <para>The value sets maximal proportion of free space above raised hand
+            on the image to hand's height. If proportion of free space above raised
+            hand on the image is less than this value, then the hand is supposed to
+            be raised diagonally up. Otherwise it is supposed to be raised diagonally
+            down.</para>
+            
+            <para>Minimal possible value is 0. Default value is set to 0.35.</para>
+            </remarks>
+            
+        </member>
+    </members>
+</doc>
